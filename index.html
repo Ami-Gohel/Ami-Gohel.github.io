@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ami Gohel</title>
+  <meta name="description" content="Welcome to Ami Gohel's project site.">
+  <meta name="theme-color" content="#111827">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⚡️</text></svg>">
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      display: grid;
+      place-items: center;
+      background: linear-gradient(180deg, #0f172a, #111827);
+      color: #e5e7eb;
+    }
+    .card {
+      max-width: 720px;
+      width: 92%;
+      background: rgba(17, 24, 39, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 28px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+    h1 { font-size: 28px; margin: 0 0 8px; letter-spacing: 0.2px; }
+    p { margin: 0 0 18px; line-height: 1.6; color: #cbd5e1; }
+    .actions { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 10px;
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,0.12);
+      color: #e5e7eb;
+      background: rgba(255,255,255,0.04);
+      transition: transform 0.12s ease, background 0.12s ease, border-color 0.12s ease;
+    }
+    .btn:hover { transform: translateY(-1px); background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.2); }
+    .muted { font-size: 13px; opacity: 0.8; margin-top: 10px; }
+    .note { font-size: 12px; opacity: 0.7; margin-top: 6px; }
+    @media (prefers-color-scheme: light) {
+      body { background: linear-gradient(180deg, #f8fafc, #eef2f7); color: #0f172a; }
+      .card { background: rgba(255,255,255,0.8); border-color: rgba(0,0,0,0.06); }
+      p { color: #334155; }
+      .btn { color: #0f172a; border-color: rgba(0,0,0,0.08); background: rgba(0,0,0,0.02); }
+      .btn:hover { background: rgba(0,0,0,0.06); border-color: rgba(0,0,0,0.18); }
+    }
+  </style>
+  <!-- If you deploy this on GitHub Pages for a Next.js app, consider adding 404.html too for client-side routing. -->
+</head>
+<body>
+  <main class="card" role="main">
+    <h1>Welcome</h1>
+    <p>This is the GitHub Pages landing page for <strong>Ami Gohel</strong>.</p>
+    <p class="muted">Use the links below to navigate to the application or repository.</p>
+    <div class="actions">
+      <a class="btn" href="./" rel="noopener">Open App</a>
+      <a class="btn" href="./README.md" rel="noopener">Readme</a>
+      <a class="btn" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="note">Tip: If this is a single-page app, you may also want to add a <code>404.html</code> that mirrors this file to support client-side routes on GitHub Pages.</p>
+  </main>
+</body>
+</html>
+
+
